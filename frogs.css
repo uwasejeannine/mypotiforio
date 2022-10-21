@@ -1,0 +1,283 @@
+/*section one blends together with section two,
+ because most of the codes and styles in this section are basics.*/
+
+ /*section 2 begins here..........
+ .............................
+ .........................
+ .......................*/
+
+body{
+    color:goldenrod;
+    background-color:rgb(7, 3, 3);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px ;
+    text-align:center;
+    /*background-color: is a part of section3, but i had to use it in section2, becaause it was pat of my body properties.*/
+}
+h1.mile{
+    color:snow;
+    font-family: jokerman, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-style:unset;
+    font-weight: lighter;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration:underline;
+    text-shadow:6px 3.7px 4px brown,4px 3.8px 5px gold;
+}
+section.mile{
+    text-indent:80px;
+}
+span.mile{
+    text-indent: 80px;
+}
+strong.mile{
+    color: rgb(237, 255, 79);
+    font-family:CASTELLAR,'CURLZ MT',BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 23px;
+    font-weight: 750;
+    text-shadow:3PX 4PX 3PX slategray,2.3px 3.4px 2px rgb(160, 221, 185);
+    font-style: inherit;
+}
+h3.mile{
+    font-family: 'matura mt script capitals';
+    text-shadow: 3px 4px 3.4px goldenrod,2px 4px 3px gray;
+    color:rgb(63, 141, 135);
+    font-weight: 300;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+h4.mile{
+    font-family: harrington,Arial, Helvetica, sans-serif;
+    color: firebrick;
+    text-shadow: 4px 3px 3.5px goldenrod,3px 4px 2px silver;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+h3.mile2{
+font-family: jokerman;
+color: rgb(116, 231, 177);
+text-shadow: 3px 4px 3.6px red,4px 4px 5px silver;
+font-size: 35px;
+}
+h3.mile3{
+    font-family:forte,'ms gothic';
+    word-spacing: -2px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    text-shadow:5px 3px 4.3px maroon,3px 4px 4.2px grey;
+    color: royalblue;
+    font-size: 35px;
+
+}
+nav.mile{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium',
+     'Arial Narrow', Arial, sans-serif;
+     font-style: normal;
+     font-size: 20px;
+     font-weight: 700;
+}
+section.mile{
+    white-space: pre-wrap;
+}
+section.border1{
+    white-space: pre-wrap;
+}
+section.border2{
+    white-space: pre-wrap;
+}
+section.border3{
+    white-space: pre-wrap;
+}
+/*section 3 begins here
+.............................
+..............................
+..................................
+.........................*/
+
+section.border1{
+    padding: 2px;
+    border-style: double;
+    border-width: 15px;
+    border-color:rgb(197, 163, 89);
+}
+/*section.border2{
+padding: 2px;
+border-width: 15px;
+border-color: olive;
+border-style: groove;
+border-left: silver dotted 15px;
+border-right: gray dotted 15px;
+}*/
+/*section.mile{
+    padding: 2px;
+    border-width: 15px;
+    border-style: inset;
+    border-color: rgba(131, 43, 112, 0.87);}
+    ....this section is without a border*/
+section.border3{
+    padding: 2px;
+    border-style: ridge;
+    border-color: rgb(255, 102, 0);
+    border-width:20px;
+    border-bottom-width: 20px;
+    padding-bottom: -5px;
+}
+p.bgimg1{
+    padding:-5px;
+    background-image: url(./Resources/Pics/girl&fox.png);
+    background-repeat:repeat-x;
+    background-attachment: fixed;
+    color:azure;
+}
+p.bgimg2{
+    padding: 35px;
+    background-image: url(./Resources/Pics/wp3.jpg);
+    background-repeat:repeat-x;
+    background-attachment: fixed;
+    color:rgb(241, 104, 12);
+}
+p.bgimg3{
+    padding: 35px;
+    background-image: url(./Resources/Pics/wp2.jpg);
+    background-repeat:repeat-x;
+    background-attachment: scroll;
+    color:rgb(177, 212, 21);
+}
+ul.mile{
+list-style: square;
+list-style-position: outside;
+list-style-image: none;
+}
+ol.mile{
+    list-style-position: inside;
+}
+table{
+    border-collapse:collapse;
+    border-spacing: 40px 40px;
+    empty-cells: hide;
+    border:0px solid brown;
+    width:100%;
+    color: white;
+
+}
+td{
+    border: 2px solid rgba(255, 234, 40, 0.897);
+    width: 10%;
+    height: 10px;
+}
+table.mile{
+table-layout: fixed;
+}
+caption{
+    caption-side: top;
+}
+caption.mile{
+    font-family: harrington,'Franklin Gothic Medium';
+    color:white;
+    font-variant:small-caps;
+    font-weight: 800;
+    font-size: 25px;
+    text-shadow:2px 3px 4px brown;
+}
+a:link{
+    color: rgba(120, 234, 238, 0.945);
+    font-family: 'ms Gothic',algerian,forte;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(255, 115, 0);
+    font-family: 'ms Gothic',algerian,forte;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+}
+a:visited{
+    color: darkred;
+    font-family: 'ms Gothic',algerian,forte;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* section four begins here.............
+..........................
+....................*/
+
+img.mile{
+    float: right;
+    width:420px;
+    margin-right: 10px;
+}
+p.wrap{
+    width: 600px;
+    float: right;
+}
+/*.float{
+    float: none;
+    float: left;
+    width: 100px;
+    height: 60px;
+    overflow: auto;*.
+    ....this code is no more in use*/
+.clear{
+    clear: both;
+}
+/*section.mile{
+    position: relative;
+    margin-top: 15px;
+    width: 120px;
+    height: 120px;
+    z-index: 1;*..
+    .......I don 't really understand this code.}*/
+
+/*.....CSS3 STARTS HERE.....*/
+
+/*......SECTION 5 BEGINS HERE.......*/
+
+/*aside.mile{
+    width: 800px;
+    height: 800px;
+    border-radius: 400px;
+    background-color: brown;
+    float: right;
+}...................this was a code check*/
+
+section.border2{
+    box-shadow: -12px -12px 8px -10px rgb(184, 30, 56),
+    inset -12px -12px 8px -9px rgb(185, 42, 66);
+}
+section.mile{
+    box-shadow: -13px -14px 9px -14px  rgb(156, 141, 141),
+    inset -13px -14px 9px -13px rgb(163, 141, 141) ;
+}
+section.border3{
+    border-radius: 20px 20px 20px 20px;
+}
+
+nav ul{
+    background: linear-gradient(90deg,
+    rgba(255,255,255,0)0%,
+    rgba(255,255,255,0.2)25%,
+    rgba(255,255,255,0.2)75%,
+    rgba(255,255,255,0)100%);
+    box-shadow: 0 0 25px rgba(0 0 0 0.1),
+    inset 0 0 1px rgba(255,255, 255, 0.6);
+}
+
+nav ul{
+    display: inline-block;
+}
+nav ul a{
+    padding: 10px;
+    color: rgb(153, 15, 15);
+    text-decoration: none;
+    display: block;
+}
+
